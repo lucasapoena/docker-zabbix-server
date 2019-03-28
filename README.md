@@ -51,3 +51,7 @@ Enjoy your new panels!
 | `./start`  | Initializes its containers  | |
 | `./stop`  | Stop your project containers  | |
 | `./kill`  | Stops containers and removes containers, networks, volumes, and images created to the specific project  | |
+
+### License
+
+MIT © 2019 [Lucas Apoena](https://github.com/lucasapoena/) and [contributors](https://github.com/lucasapoena/zabbix-server-docker/graphs/contributors).
