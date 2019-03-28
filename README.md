@@ -1,6 +1,6 @@
 ![Zabbix](https://assets.zabbix.com/img/logo/zabbix_logo_500x131.png)
 
-# Zabbix Server Docker
+# Docker - Zabbix Server 
 
 ### Nginx + Zabbix 4.0.5 + Mysql 5.7
 
@@ -23,13 +23,13 @@ Install [Docker](https://docs.docker.com/engine/installation/linux/docker-ce/ubu
 Clone the project to your local repository:
 
 ```
-git clone https://github.com/lucasapoena/zabbix-server-docker
+git clone https://github.com/lucasapoena/docker-zabbix-server
 ```
 
 Initialize your containers:
 
 ```
-cd zabbix-server-docker
+cd docker-zabbix-server
 ./start
 ```
 
