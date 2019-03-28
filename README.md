@@ -1,16 +1,46 @@
 # Zabbix Server Docker
 
-### Requirements
+### Nginx + Zabbix 4.0.5 + Mysql 5.7
+
 ### Requirements
 
 **MacOS:**
 
-Install [Docker](https://docs.docker.com/docker-for-mac/install/), [Docker-compose](https://docs.docker.com/compose/install/#install-compose)
+Install [Docker](https://docs.docker.com/docker-for-mac/install/) and [Docker-compose](https://docs.docker.com/compose/install/#install-compose)
 
 **Windows:**
 
-Install [Docker](https://docs.docker.com/docker-for-windows/install/), [Docker-compose](https://docs.docker.com/compose/install/#install-compose)
+Install [Docker](https://docs.docker.com/docker-for-windows/install/) and [Docker-compose](https://docs.docker.com/compose/install/#install-compose)
 
 **Linux:**
 
 Install [Docker](https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/) and [Docker-compose](https://docs.docker.com/compose/install/#install-compose).
+
+### How to use
+
+Clone the project to your local repository:
+
+```
+git clone https://github.com/lucasapoena/zabbix-server-docker
+```
+
+Initialize your containers:
+
+```
+cd zabbix-server-docker
+./start
+```
+
+### Panels
+
+Enjoy your new panels!
+
+**Zabbix Web:** http://localhost:8080
+
+### Features commands
+
+| Commands  | Description  | Options & Examples |
+|---|---|---|
+| `./start`  | Initializes its containers  | |
+| `./stop`  | Stop your project containers  | |
+| `./kill`  | Stops containers and removes containers, networks, volumes, and images created to the specific project  | |
